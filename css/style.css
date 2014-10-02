@@ -1,0 +1,60 @@
+		.box-default-color{
+			background-color: #ccc;
+			border: #ccc 2px solid;
+		}
+		.red-box-color{
+			background-color: red;
+			border: red 2px solid;
+		}
+		.blue-box-color{
+			background-color: blue;
+			border: blue 2px solid;
+		}
+		.green-box-color{
+			background-color: green;
+			border: green 2px solid;
+		}
+		.box{
+			height: 86px;
+			width: 86px;
+			float: left;
+			margin: 5px;
+			font-size: 50px;
+			text-align: center;
+			line-height: 1.8;
+			font-weight: bold;
+		}
+		.box:hover{
+			border: black 2px dotted;
+		}
+		.grid-background-color{
+			background-color: #eee;
+		}
+		#container{
+			width:310px;
+			height: 400px;
+			margin:auto;
+		}
+		body{
+			display: -ms-flexbox;
+			display:flex;
+			height:100%;
+			width:100%;
+			margin:0px;
+			padding:0px;
+		}
+		#color-selector{
+			height: 30px;
+			text-align: center;
+			padding-top: 10px;
+		}
+		#action-buttons{
+			height: 30px;
+			text-align: center;
+			padding-top: 10px;
+		}
+
+		#box-container{
+			height:300px;
+			padding: 5px;
+		}
